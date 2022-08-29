@@ -1,0 +1,44 @@
+#odinsvg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    height: auto;
+    width: 150px;
+}
+
+.title {
+    text-align: center;
+    color: goldenrod;
+    font-size: 64px;
+    margin: 10px; 
+    box-sizing: border-box;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+.list {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+    color: goldenrod;
+    padding: 30px 130px 30px 130px;
+    font-size: 28px;
+    margin: 10px;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+.recipeimg {
+    display: inline-flex;
+    margin: 25px auto;
+    height: auto;
+    width: 120px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: goldenrod;
+}
+
+a {
+  text-decoration: none;
+  color: goldenrod;
+}
